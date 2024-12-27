@@ -10,6 +10,12 @@ A real-time status page application built with React, TypeScript, and modern web
 - Service health indicators
 - Quick status overview
 
+### 👤 User Management
+- Secure authentication with Clerk
+- Role-based access control
+- Protected routes
+- User profile management
+
 ### 🔧 Service Management
 - Add and manage services
 - Update service status
@@ -22,6 +28,12 @@ A real-time status page application built with React, TypeScript, and modern web
 - Incident status workflow
 - Incident history
 
+ ### 🔄 Real-time Updates
+- WebSocket integration
+- Live status changes
+- Instant incident notifications
+- Automatic UI updates
+
 ### 🌐 Public Status Page
 - Public-facing status dashboard
 - Real-time status updates
@@ -29,17 +41,6 @@ A real-time status page application built with React, TypeScript, and modern web
 - Historical timeline
 - Service uptime metrics
 
-### 👤 User Management
-- Secure authentication with Clerk
-- Role-based access control
-- Protected routes
-- User profile management
-
-### 🔄 Real-time Updates
-- WebSocket integration
-- Live status changes
-- Instant incident notifications
-- Automatic UI updates
 
 ## 🛠️ Technology Stack
 
@@ -64,3 +65,23 @@ A real-time status page application built with React, TypeScript, and modern web
 ## 📦 Installation
 
 1. Clone the repository:
+bash
+git clone <repository-url>
+cd status-page
+
+2. Install dependencies:
+bash
+npm install
+
+3. Start the development server:
+bash
+npm run dev
+
+## Deployment
+
+This application is configured for deployment on Vercel. To deploy:
+
+1. Push your code to GitHub
+2. Import your repository in Vercel
+3. Configure environment variables in Vercel dashboard
+4. Deploy!
