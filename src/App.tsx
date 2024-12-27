@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Link, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ClerkProvider, SignIn, SignUp, useUser } from '@clerk/clerk-react';
 import Dashboard from './components/Dashboard';
@@ -35,7 +35,7 @@ function App() {
     <ClerkProvider publishableKey={clerkPubKey!}>
       <QueryClientProvider client={queryClient}>
         <WebSocketProvider>
-          <BrowserRouter>
+          <Router>
             <Routes>
               <Route path="/status" element={<PublicStatusPage />} />
               <Route
@@ -96,7 +96,7 @@ function App() {
                 }
               />
             </Routes>
-          </BrowserRouter>
+          </Router>
         </WebSocketProvider>
       </QueryClientProvider>
     </ClerkProvider>
