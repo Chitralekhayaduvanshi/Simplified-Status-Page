@@ -1,4 +1,4 @@
-# Modern Status Page Application
+# Simplified Status Page Application
 
 A real-time status page application built with React, TypeScript, and modern web technologies. Monitor your services, manage incidents, and provide transparent status updates to your users.
 
