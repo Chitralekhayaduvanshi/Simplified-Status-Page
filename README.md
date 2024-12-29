@@ -79,9 +79,5 @@ npm run dev
 
 ## Deployment
 
-This application is configured for deployment on Vercel. To deploy:
-
-1. Push your code to GitHub
-2. Import your repository in Vercel
-3. Configure environment variables in Vercel dashboard
-4. Deploy!
+This application is configured for deployment on Vercel.
+simplified-status-page.vercel.app
